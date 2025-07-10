@@ -13,6 +13,10 @@
     color: #FD6E0A;
 }
 
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
 .dark-1{
     color: #181818;
 }
@@ -33,7 +37,13 @@
     border-radius: 5px;
 }
 
-
+.header{
+    background-image:url(images/developer.png),url(images/header_bg.png)
+     ;
+     background-repeat: no-repeat;
+     background-position: top left, bottom right;
+}
+/* navigation style */
 
 nav{
     display: flex;
@@ -57,3 +67,70 @@ nav ul li{
 nav li a{
     text-decoration: none;
 }
+
+/* banner style */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 100px;
+}
+.greeting{
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 150px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: -20px;
+}
+.banner-description{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+.banner-img{
+    width: 50%;
+}
+
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+/* about section  */
+
+.about{
+    padding: 120px 150px;
+    margin-top: 130px;
+    text-align: center;
+}
+.about-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.about-description{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: -10px;
+}
+.item-descrition{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* what i do section */
